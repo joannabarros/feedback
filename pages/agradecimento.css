@@ -19,6 +19,7 @@
 body {
     background-color: var(--very-dark-blue);
     height: 100svh;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,4 +30,17 @@ body {
     max-width: 412px;
     padding: 32px;
     border-radius: 30px;
+}
+
+.card h1 {
+    color: var(--white);
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.card p {
+    color: var(--light-grey);
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 24px;
 }
